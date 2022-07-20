@@ -1,9 +1,4 @@
-import {
-  getColor,
-  mode,
-  StyleFunctionProps,
-  transparentize,
-} from "@chakra-ui/theme-tools";
+import { getColor, mode, StyleFunctionProps } from "@chakra-ui/theme-tools";
 
 const parts = ["field", "menu", "option"];
 
@@ -136,7 +131,7 @@ const sizes = {
   },
 };
 
-export default {
+const customSelect = {
   parts,
   baseStyle,
   variants,
@@ -147,3 +142,5 @@ export default {
     colorScheme: "brand",
   },
 };
+
+export default customSelect;

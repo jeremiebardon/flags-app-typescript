@@ -30,6 +30,8 @@ const variants = {
   }),
 };
 
-export default {
+const link = {
   variants,
 };
+
+export default link;

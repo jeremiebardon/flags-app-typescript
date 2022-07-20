@@ -88,10 +88,12 @@ const sizes = {
   },
 };
 
-export default {
+const input = {
   variants,
   sizes,
   defaultProps: {
     colorScheme: "gray",
   },
 };
+
+export default input;

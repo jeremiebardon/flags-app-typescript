@@ -1,12 +1,14 @@
 const baseStyle = {
   _focus: {
-    boxShadow: 'none',
+    boxShadow: "none",
   },
   _focusVisible: {
-    boxShadow: 'outline',
+    boxShadow: "outline",
   },
-}
+};
 
-export default {
+const closeButton = {
   baseStyle,
-}
+};
+
+export default closeButton;
