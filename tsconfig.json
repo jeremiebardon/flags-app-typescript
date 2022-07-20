@@ -20,6 +20,9 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "rules": {
+    "import/no-anonymous-default-export": "off"
+  },
   "include": [
     "src"
   ]

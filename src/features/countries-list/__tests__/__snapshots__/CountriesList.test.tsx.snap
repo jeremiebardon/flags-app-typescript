@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountriesList /> should render Countries List 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="chakra-stack css-om1qj2"
+      >
+        <div
+          class="chakra-input__group css-1gvctzy"
+        >
+          <div
+            class="chakra-input__left-element css-o061fv"
+          >
+            <svg
+              class="chakra-icon css-ykyi6j"
+              fill="none"
+              focusable="false"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </div>
+          <input
+            class="chakra-input css-1yiizff"
+            data-testid="input-name"
+            placeholder="Search for a country "
+          />
+        </div>
+        <div
+          class="chakra-form-control css-1t02n1q"
+          role="group"
+        >
+          <div
+            class="css-79elbk"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="downshift-0-label downshift-0-toggle-button"
+              class="css-17hs7hi"
+              data-focus-visible-added="false"
+              data-testid="select-region"
+              id="downshift-0-toggle-button"
+              name="region"
+            >
+              <span
+                class="css-188y514"
+              >
+                Filter by Region
+              </span>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                role="presentation"
+                style="width: 1em; height: 1em; color: currentColor;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+            <div
+              class="css-1pye1st"
+              style="position: absolute; min-width: max-content; inset: 0 auto auto 0; visibility: hidden;"
+            >
+              <ul
+                aria-labelledby="downshift-0-label"
+                class="css-0"
+                data-focus-visible-added="false"
+                id="downshift-0-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1xlzx9v"
+      >
+        <div
+          class="chakra-stack css-13xe2j5"
+          data-testid="loading-wrapper"
+        >
+          <div
+            class="chakra-spinner css-1vipfeh"
+          >
+            <span
+              class="css-f8n5zr"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-teegel"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="chakra-stack css-om1qj2"
+    >
+      <div
+        class="chakra-input__group css-1gvctzy"
+      >
+        <div
+          class="chakra-input__left-element css-o061fv"
+        >
+          <svg
+            class="chakra-icon css-ykyi6j"
+            fill="none"
+            focusable="false"
+            height="1em"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
+        </div>
+        <input
+          class="chakra-input css-1yiizff"
+          data-testid="input-name"
+          placeholder="Search for a country "
+        />
+      </div>
+      <div
+        class="chakra-form-control css-1t02n1q"
+        role="group"
+      >
+        <div
+          class="css-79elbk"
+        >
+          <button
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-labelledby="downshift-0-label downshift-0-toggle-button"
+            class="css-17hs7hi"
+            data-focus-visible-added="false"
+            data-testid="select-region"
+            id="downshift-0-toggle-button"
+            name="region"
+          >
+            <span
+              class="css-188y514"
+            >
+              Filter by Region
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              role="presentation"
+              style="width: 1em; height: 1em; color: currentColor;"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <div
+            class="css-1pye1st"
+            style="position: absolute; min-width: max-content; inset: 0 auto auto 0; visibility: hidden;"
+          >
+            <ul
+              aria-labelledby="downshift-0-label"
+              class="css-0"
+              data-focus-visible-added="false"
+              id="downshift-0-menu"
+              role="listbox"
+              tabindex="-1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-1xlzx9v"
+    >
+      <div
+        class="chakra-stack css-13xe2j5"
+        data-testid="loading-wrapper"
+      >
+        <div
+          class="chakra-spinner css-1vipfeh"
+        >
+          <span
+            class="css-f8n5zr"
+          >
+            Loading...
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-teegel"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

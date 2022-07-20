@@ -1,9 +1,25 @@
-import { ColorModeScript } from "@chakra-ui/react"
 import * as React from "react"
 import * as ReactDOM from "react-dom/client"
-import { App } from "./App"
-import reportWebVitals from "./reportWebVitals"
 import * as serviceWorker from "./serviceWorker"
+import reportWebVitals from "./reportWebVitals"
+
+import "@fontsource/nunito";
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
+
+import { theme } from "./theme";
+
+import { App } from "./app/App";
+import { Country } from "./features/country/Country";
+import { CountriesList } from "./features/countries-list/CountriesList";
+import { ApiProvider } from "@reduxjs/toolkit/dist/query/react";
+import { api } from "./services/api";
 
 
 const container = document.getElementById("root")
@@ -13,7 +29,18 @@ const root = ReactDOM.createRoot(container)
 root.render(
   <React.StrictMode>
     <ColorModeScript />
-    <App />
+    <ApiProvider api={api}>
+      <ChakraProvider theme={theme}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<App />}>
+              <Route index element={<CountriesList />} />
+              <Route path="/country/:countryName" element={<Country />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </ChakraProvider>
+    </ApiProvider>
   </React.StrictMode>,
 )
 
